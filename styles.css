@@ -1,0 +1,140 @@
+@font-face {
+    font-family: bold;
+    src: url(fonts/NeueBold.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(fonts/NeueLight.ttf);
+}
+@font-face {
+    font-family: tryst;
+    src: url(fonts/Tryst-Regular.otf);
+}
+.sidetext{
+	letter-spacing: 3px;
+	font-family: tryst;
+	padding-left:4%;
+	padding-right:4%;
+
+}
+@media only screen and (max-width: 765px) {
+	.sidetext{
+		font-size:30px;
+	}
+	.sidebar{
+		margin-bottom:10px;
+	}
+	.notsidebar{
+		margin:9%;
+		margin-top:10px;
+	}
+	body{
+		margin-top:20px;
+		font-size:40px;
+	}
+	body > div > div.notsidebar.col-xs-10.col-md-6 > div > ul > li> a{
+		padding-bottom:20px;
+	}
+	.bg-absolute{
+	display:none;
+	}
+	body > div > div.notsidebar.col-xs-10.col-sm-5.col-md-6 > p.maintext.toptext{
+	font-size:50px;
+	}
+	
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	.sidetext{
+		font-size:20px;
+	}
+	.notsidebar{
+		margin:7%;
+		margin-top:15px;
+	}
+	body{
+		font-size:40px;
+		margin-top:20px;
+	}
+	.bg-absolute{
+	display:none;
+	}
+	body > div > div.notsidebar.col-xs-10.col-sm-5.col-md-6 > p.maintext.toptext{
+		font-size:40px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.sidetext{
+		font-size:14px;
+	}
+	.notsidebar{
+	margin:2%;
+	margin-top:5%;
+	}
+	.sidebar{
+	margin:10%;
+	margin-right:2%;
+	}
+	body{
+		font-size:20px;
+	}
+	body > div > div.notsidebar.col-xs-10.col-md-6 > div > ul > li> a{
+		font-size:40px;
+	}
+	.bg-absolute{
+		position:fixed;
+		right:0px;
+		top: 0px;
+		width:70%;
+	}
+		
+}
+.sidebar{
+	border: 1px solid grey;
+	padding:35px;
+	
+	color:black; 
+}
+
+.welcometext{
+	font-size:120%;
+}
+
+body > div > div.notsidebar.col-xs-10.col-md-6 > div > ul > li> a{
+	font-family:bold;
+	padding-left:0px;
+	color:white;
+	background-color:black;
+	margin-right:10px;
+	padding-left:15px;
+	
+}
+body > div > div.notsidebar.col-xs-10.col-md-6 > div > ul > li>a:hover{
+	background-color:transparent;
+	color:grey;
+	
+}
+body > div > div.notsidebar.col-xs-10.col-sm-5.col-md-6 > div > ul > li.active > a{
+	background-color:transparent;
+	color:black;
+	border:0.1px solid black;
+	
+}
+body{
+	font-family:light;
+	}
+	
+.body-inverted {
+	filter:invert(100%);
+	background-color:black;
+}
+p.maintext.toptext{
+	margin-top:20px;
+}
+.fa {
+	font-size: 30px;
+
+}
+
+
+
+
