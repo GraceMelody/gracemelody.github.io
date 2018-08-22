@@ -41,6 +41,9 @@
 	body > div > div.notsidebar.col-xs-10.col-sm-5.col-md-6 > p.maintext.toptext{
 	font-size:35px;
 	}
+	body > div > div.notsidebar.col-xs-10.col-sm-5.col-md-6 > p.maintext.toptext.special{
+	font-size:35px;
+	}
 	
 }
 @media only screen and (max-width: 991px) and (min-width: 768px){
@@ -57,9 +60,13 @@
 	}
 	.bg-absolute{
 	display:none;
+	
 	}
+	
 	body > div > div.notsidebar.col-xs-10.col-sm-5.col-md-6 > p.maintext.toptext{
 		font-size:35px;
+	}body > div > div.notsidebar.col-xs-10.col-sm-5.col-md-6 > p.maintext.toptext.special{
+		font-size:40px;
 	}
 }
 @media only screen and (min-width: 992px) {
@@ -86,7 +93,9 @@
 		top: 0px;
 		width:70%;
 	}
-		
+	body > div > div.notsidebar.col-xs-10.col-sm-5.col-md-6 > p.maintext.toptext.special{
+		font-size:40px;
+	}	
 }
 .sidebar{
 	border: 1px solid grey;
